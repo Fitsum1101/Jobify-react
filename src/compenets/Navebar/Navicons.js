@@ -13,7 +13,7 @@ function Navicons() {
       <Link>
         <FaUser />
       </Link>
-      <Link className="capitalize text-[1rem] text-blue-500">home</Link>
+      <Link to={"/login"} className="capitalize text-[1rem] text-blue-500">login</Link>
     </div>
   );
 }
