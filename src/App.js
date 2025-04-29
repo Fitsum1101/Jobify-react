@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Home";
 import LoginPage from "./pages/Login";
 import RootLayout from "./compenets/Layout/Root";
+import Admin from "./pages/Admin";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Route path="/" element={<RootLayout />}>
         <Route index="true" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/admin" element={<Admin />} />
       </Route>
     </Routes>
   );
